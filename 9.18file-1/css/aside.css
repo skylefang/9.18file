@@ -1,0 +1,54 @@
+@import url('base.css');
+.ban4{
+	margin-top: 20px;
+	width: 200px;
+	height: 500px;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 62px;
+}
+.ban4 li{
+	width: 190px;
+	height: 31.25px;
+	font-size: 10px;
+	padding-left: 10px;
+	/* margin-left: 14px; */
+}
+.ban4 li a{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 31.25px;
+	width: 200px;
+	height: 31.25px;
+}
+.ban4 > li > ul.item{
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	left: 200px;
+	top: 0;
+	background: #ff6700;
+	display: none;
+}
+.ban4 > li > ul.block{
+	display: block;
+}
+.ban4 li:hover{
+	background: white;
+}
+.ban4 li:hover #leiming{
+	color: #E54077;
+}
+
+.ban4 li:hover #leiming1{
+    color: #5FB1FD;
+}
+.ban4 li:hover #leiming2{
+    color: blue;
+}
+.ban4 li:hover #leiming3{
+    color: #ff6700;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>banner</title>
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	main{
+		width: 1260px;
+		height: 500px;
+		background: rgba(1, 1, 1, 0.5);
+		margin: 0 auto;
+		position: relative;
+	}
+	.btn{
+		width: 80px;
+		height: 15px;
+		/* background: pink; */
+		list-style: none;
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+	}
+	.btn li{
+		width: 15px;
+		height: 15px;
+		background: #40a1cc;
+		border-radius: 50%;
+		margin-right: 5px;
+		float: left;
+		cursor: pointer;
+	}
+	#color{
+		background: #e10d7c;
+	}
+	</style>
+</head>
+<body>
+    <main>
+    	<ul class="btn">
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    	</ul>
+    </main>
+    <script>
+    	let btn = document.getElementsByClassName('btn');
+    	let lis = btn[0].getElementsByTagName('li');
+    	let flag=true;
+    	for(let i=0;i<lis.length;i++){
+    		lis[i].on=function(){
+    			lis[i].id='color';
+    		}
+    	}
+
+    </script>
+	
+</body>
+</html>
